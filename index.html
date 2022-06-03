@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>QATAR WORLDCUP</title>
+    <link rel="stylesheet" href="css/style.css">
+    <script src="javascript/jquery-1.12.3.js"></script>
+    <!-- defer 속성은 script가 잠깐 지연 되도록 하여 HTML 구문 분석이 완료된 후 스크립트를 실행하도록 함 -->
+    <script src="javascript/script.js" defer type="text/javascript"></script>
+</head>
+<body>
+
+<div id="layer">
+    <div class="layer_up">
+        <div class="uptitle">GROUP-A</div>
+        <div class="upbody">
+            카타르, 에콰도르, 세네갈, 네덜란드
+        </div>
+        <div class="btn">닫기</div>
+    </div>
+</div> <!--레이어 팝업창 영역끝-->
+
+
+    <header>
+        <div class="top">
+            <div class="logo">
+                <a href="#"><img src="images/fifa.png" alt="로고"></a>
+            </div>
+            <nav class="menu">
+                <ul class="navi">
+                    <li>
+                        <a href="#">GROUP-A</a>
+                        <ul class="submenu">
+                            <li><a href="#">카타르</a></li>
+                            <li><a href="#">에콰도르</a></li>
+                            <li><a href="#">세네갈</a></li>
+                            <li><a href="#">네덜란드</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="#">GROUP-B</a>
+                        <ul class="submenu">            
+                            <li><a href="#">영국</a></li>
+                            <li><a href="#">이란</a></li>
+                            <li><a href="#">미국</a></li>
+                            <li><a href="#">유럽PO 승자</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="#">GROUP-C</a>
+                        <ul class="submenu">
+                            <li><a href="#">아르헨티나</a></li>
+                            <li><a href="#">사우디아라비아</a></li>
+                            <li><a href="#">멕시코</a></li>
+                            <li><a href="#">폴란드</a></li>
+
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="#">GROUP-D</a>
+                        <ul class="submenu">
+                            <li><a href="#">프랑스</a></li>
+                            <li><a href="#">아시아vs남미PO승자</a></li>
+                            <li><a href="#">덴마크</a></li>
+                            <li><a href="#">튀니지</a></li>
+
+                        </ul>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <div class="bodywrap">
+        <div class="imgslide">
+            <a href="#">
+                <img src="images/ball.jpg" alt="이미지1">
+                <span class="imgtext">ball</span>
+            </a>
+            <a href="#">
+                <img src="images/stadium.jpg" alt="이미지2">
+                <span class="imgtext">stadium</span>
+            </a>
+            <a href="#">
+                <img src="images/qatar.jpg" alt="이미지3">
+                <span class="imgtext">qatar</span>
+            </a>
+        </div>
+        <div class="contents">
+            <ul class="tabmenu">
+                <li class="active"><a href="#">조편성</a>
+                    <div class="notice">
+                        <ul>
+                            <li><a href="#">
+                                카타르, 에콰도르, 세네갈, 네덜란드
+                                <span>A 조</span>
+                            </a></li>
+                            <li><a href="#">
+                                잉글랜드, 이란, 미국, 유럽PO 승자
+                                <span>B 조</span>
+                            </a></li>
+                            <li><a href="#">
+                                아르헨티나, 사우디 아라비아, 멕시코, 폴란드
+                                <span>C 조</span>
+                            </a></li>
+                            <li><a href="#">
+                                프랑스, 아시아vs남미PO승자, 덴마크, 튀니지
+                                <span>D 조</span>
+                            </a></li>
+                        </ul>
+                    </div>
+                </li>
+            <li><a href="#">갤러리 </a>
+                <div class="gallery">
+                    <ul>
+                        <li><a href="# "><img src="images/ball.ico" alt="갤러리 이미지1"></a></li>
+                        <li><a href="#"><img src="images/stadium.ico" alt="갤러리 이미지2"></a></li>
+                        <li><a href="#"><img src="images/qatar.ico" alt="갤러리 이미지3"></a></li>
+                    </ul>
+                  </div>
+                </li>
+            </ul>
+            <!-- otherwrap은 banner와 shortcut을 묶어줌 -->
+            <div class="otherwrap">
+                <div class="banner">
+                    <a href="#">
+                        <img src="images/players.jpg" alt="선수단">
+                        <h4 class="bntext">선수단</h4>
+                    </a>
+                </div>
+                <div class="shortcut">
+                    <a href="#">
+                        <img src="images/fifa.jpg" alt="바로가기 이미지">
+                        <h4 class="sctext">바로가기</h4>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <div class="btlogo">
+            <a href="#"><img src="images/fifa.png" alt="하단로고"></a>
+        </div>
+        <!-- .site는 .btmenu와 .copy를 묶어줌s -->
+        <div class="site">
+            <div class="btmenu">
+                <ul>
+                    <li><a href="#">하단메뉴1</a></li>
+                    <li><a href="#">하단메뉴2</a></li>
+                    <li><a href="#">하단메뉴3</a></li>
+                </ul>
+            </div>
+            <div class="copy">
+                COPYRIGHT &copy; BY WEBSEDIGN. ALL RIGHTS RESERVED
+            </div>
+        </div>
+        <!-- .site끝 -->
+    </footer>
+    <p>
+        <a href="http://validator.kldp.org/check?uri=referer"
+          onclick="this.href=this.href.replace(/referer$/,encodeURIComponent(document.URL))"><img
+          src="//validator.kldp.org/w3cimgs/validate/html5-blue.png" alt="Valid HTML 5" height="15" width="80"></a>
+      </p>
+</body>
+</html>
